@@ -10,6 +10,7 @@ namespace API.Controllers
     [Route("api/[controller]")]
     [Produces("application/json")]
     [ApiController]
+    [ApiExplorerSettings(GroupName = "Clubs")]
     public class ClubsController : ControllerBase
     {
         /// <summary>
